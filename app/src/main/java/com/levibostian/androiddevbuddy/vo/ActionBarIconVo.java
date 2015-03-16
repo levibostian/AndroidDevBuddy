@@ -3,9 +3,9 @@ package com.levibostian.androiddevbuddy.vo;
 public class ActionBarIconVo {
 
     private int mActionBarIconRes;
-    private int mActionBarIconName;
+    private String mActionBarIconName;
 
-    public ActionBarIconVo(int actionBarIconRes, int actionBarIconName) {
+    public ActionBarIconVo(int actionBarIconRes, String actionBarIconName) {
         mActionBarIconRes = actionBarIconRes;
         mActionBarIconName = actionBarIconName;
     }
@@ -14,7 +14,7 @@ public class ActionBarIconVo {
         return mActionBarIconRes;
     }
 
-    public int getActionBarIconName() {
+    public String getActionBarIconName() {
         return mActionBarIconName;
     }
 }
